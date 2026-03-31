@@ -7,7 +7,8 @@
 ✅ 已安装 requests 库（pip install requests）
 🔵（可选）在.env文件里配置 GITHUB_TOKEN 环境变量，提升 API 限额至 5000次/小时
 ### 🛠️ github-collector 是什么？
-github-collector 是一个兼容 Claude Code、Qoder 等 Agent 框架的 Skill，目标只有一个：
+github-collector 是一个兼容 Claude Code、Qoder、Trae 等 Agent 框架的 Skill，
+目标只有一个：
 **让 Agent 像 开源项目分析师 一样，高效、智能地从 GitHub 获取所需信息。**
 它不做"低效的手动翻页"，而是聚焦任务驱动的 智能采集与分析：
 - "帮我找最近热门的 Python 文档处理库"
