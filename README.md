@@ -1,6 +1,7 @@
 # github-collector
 
 <img width="1368" height="766" alt="image_261077510450697" src="https://github.com/user-attachments/assets/37515f1d-dad5-4e1d-a9a4-da0da08cb42c" />
+
 ## GitHub 情报专家
 检查环境（需 Python 3 + requests 库）
 注册指令与资源
