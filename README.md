@@ -1,11 +1,11 @@
 # github-collector
-GitHub 情报专家
+## GitHub 情报专家
 检查环境（需 Python 3 + requests 库）
 注册指令与资源
 💡 前提条件：
 ✅ 已安装 Python 3.6+
 ✅ 已安装 requests 库（pip install requests）
-🔵（可选）配置 GITHUB_TOKEN 环境变量，提升 API 限额至 5000次/小时
+🔵（可选）在.env文件里配置 GITHUB_TOKEN 环境变量，提升 API 限额至 5000次/小时
 ### 🛠️ github-collector 是什么？
 github-collector 是一个兼容 Claude Code、Qoder 等 Agent 框架的 Skill，目标只有一个：
 **让 Agent 像 开源项目分析师 一样，高效、智能地从 GitHub 获取所需信息。**
@@ -19,8 +19,8 @@ Agent 接到指令后，会自动：
 ✅ 精准定位：使用高级搜索语法（language:、stars:>1000 等）
 ✅ 结构化解析：将原始 JSON 转为易读的 Markdown 报告
 ✅ 多格式导出：支持 Markdown / CSV / JSON 多种输出
-## 设计哲学：三层架构，只为"懂 GitHub"
-和 Web Access 一样，github-collector 也遵循我提出的 Skill 三层设计范式：
+## 三层架构设计，只为"懂 GitHub"
+github-collector 遵循 Skill 三层设计范式：
 ### ✅ 元信息层（Metadata Layer）
 声明能力边界：支持 search/info/stats 三种任务类型、Markdown 输出格式、依赖 python3 + requests
 ### ✅ 指令层（Instruction Layer）
